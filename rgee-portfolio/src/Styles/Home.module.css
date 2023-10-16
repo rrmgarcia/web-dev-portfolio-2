@@ -1,0 +1,560 @@
+.body {
+  width: 100%;
+  height: 100%;
+}
+.home {
+  background-color: rgb(255, 255, 255);
+  margin: 15vh 20vh 0 20vh;
+  padding: 10vh;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  border-radius: 2.5%;
+  font-family: "Gruppo", sans-serif;
+}
+
+.home img {
+  border-radius: 50%;
+  margin: 100px 50px 70px 50px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  animation: rollfromright 4s ease 0s 1 normal forwards;
+  box-shadow: 20px 20px 10px 10px rgb(151, 151, 151);
+  z-index: 1;
+}
+
+@keyframes rollfromright {
+  0% {
+    opacity: 0;
+    transform: translateX(500px) rotate(300deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+.intro {
+  color: black;
+  font-size: 1.3rem;
+  background-color: rgb(255, 255, 255);
+  margin: 125px 50px 50px 50px;
+  text-align: left;
+  height: 30vh;
+}
+
+.intro:hover {
+  color: rgb(255, 0, 0);
+  #raven {
+    color: black;
+  }
+  #subtitle span {
+    color: black;
+  }
+}
+
+#subtitle span {
+  color: red;
+  line-height: 2rem;
+}
+
+#introheading,
+#subtitle {
+  animation: scaleforwardcenter 6s ease 0s 1 normal forwards;
+}
+
+@keyframes scaleforwardcenter {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.personalName {
+  font-size: 4rem;
+  position: relative;
+  font-weight: 900;
+  font-family: "Exo", sans-serif;
+  animation: bouncefromleft 4s ease 0s 1 normal forwards;
+}
+
+@keyframes bouncefromleft {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  55% {
+    animation-timing-function: ease-in;
+    transform: translateX(-68px);
+  }
+
+  72% {
+    animation-timing-function: ease-out;
+    transform: translateX(0);
+  }
+
+  81% {
+    animation-timing-function: ease-in;
+    transform: translateX(-28px);
+  }
+
+  90% {
+    animation-timing-function: ease-out;
+    transform: translateX(0);
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    transform: translateX(-8px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateX(0);
+  }
+}
+
+#raven {
+  color: red;
+  font-family: "Exo", sans-serif;
+  animation: boucebackward 4s ease 0s 1 normal forwards;
+}
+
+@keyframes boucebackward {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: scale(7);
+  }
+
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  55% {
+    animation-timing-function: ease-in;
+    transform: scale(1.5);
+  }
+
+  72% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+
+  81% {
+    animation-timing-function: ease-in;
+    transform: scale(1.24);
+  }
+
+  89% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    transform: scale(1.04);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  margin: 100px 400px 100px 400px;
+  height: auto;
+  box-shadow: 30px 30px rgb(185, 80, 80);
+}
+
+.heading {
+  font-family: "Exo", sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 60px;
+}
+
+.aboutme {
+  margin: 40px 100px;
+  font-size: 1.3em;
+  line-height: 2rem;
+}
+
+.cv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  margin: 0 400px 200px 400px;
+  height: auto;
+}
+
+.cv span {
+  color: red;
+}
+
+.cv a,
+button {
+  margin-top: 30px;
+  width: 200px;
+  background-color: white;
+  border-style: none;
+  align-self: center;
+}
+
+.cv h1 {
+  text-align: center;
+}
+
+.cv button:hover {
+  background-color: rgb(255, 0, 0);
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 100px 40px 100px;
+  height: auto;
+  margin: 100px 300px 300px 300px;
+}
+
+.skills h2 {
+  font-size: 1.7rem;
+  color: red;
+}
+
+.skillscontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
+.skill:hover {
+  background-color: rgb(255, 47, 47);
+}
+
+.skillscontainer img {
+  margin: 10px;
+}
+
+.skillscontainer p {
+  margin-left: 20px;
+}
+
+.skillsimg {
+  width: 70px;
+  height: 70px;
+}
+
+@media (min-width: 993px) and (max-width: 1800px) {
+  .home {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 5vh;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    border-radius: 2.5%;
+    font-family: "Gruppo", sans-serif;
+  }
+
+  .cv {
+    margin: auto;
+  }
+
+  .cv span {
+    color: red;
+  }
+
+  .cv a,
+  button {
+    margin-top: 30px;
+    width: 180px;
+    background-color: white;
+    border-style: none;
+    align-self: center;
+  }
+
+  .cv h1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .intro {
+    font-size: 0.7rem;
+  }
+
+  .about {
+    margin: 20px 10px;
+  }
+
+  .aboutme {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .skills {
+    margin: 20px;
+  }
+
+  .skills h2 {
+    font-size: 1.2rem;
+    color: red;
+  }
+
+  .skillscontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+  }
+
+  .skillsimg {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 1801px) and (max-width: 2040px) {
+  .cv span {
+    color: red;
+  }
+
+  .cv a,
+  button {
+    margin-top: 30px;
+    width: 180px;
+    background-color: white;
+    border-style: none;
+    align-self: center;
+  }
+
+  .cv h1 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .intro {
+    font-size: 0.7rem;
+  }
+
+  .aboutme {
+    margin: 40px 100px;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .skills h2 {
+    font-size: 1.2rem;
+    color: red;
+  }
+
+  .skillscontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+  }
+
+  .skillsimg {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    border-radius: 2.5%;
+    font-family: "Gruppo", sans-serif;
+  }
+
+  .intro {
+    color: black;
+    font-size: 0.7rem;
+    background-color: rgb(255, 255, 255);
+    margin: 125px 50px 20px 50px;
+    text-align: left;
+    height: auto;
+    text-align: center;
+  }
+
+  .home img {
+    border-radius: 50%;
+    margin: 0;
+    width: 300px;
+    height: 300px;
+    animation: rollfromright 4s ease 0s 1 normal forwards;
+    box-shadow: 20px 20px 10px 10px rgb(151, 151, 151);
+    z-index: 1;
+    position: static;
+    text-align: center;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 15px 0 10px 0;
+    width: auto;
+    height: auto;
+  }
+
+  .heading {
+    font-family: "Exo", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    height: auto;
+  }
+
+  .aboutme {
+    margin: 10px 20px;
+    width: auto;
+    height: auto;
+    font-size: 0.8em;
+    line-height: 0.8rem;
+  }
+
+  .cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin: 40px 10px 10px 10px;
+    width: auto;
+    height: auto;
+  }
+
+  .cv span {
+    color: red;
+  }
+
+  .cv a,
+  button {
+    margin-top: 30px;
+    width: 100px;
+    background-color: white;
+    border-style: none;
+    align-self: center;
+  }
+
+  .cv h1 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    margin: 40px 20px;
+  }
+
+  .skills h2 {
+    font-size: 0.8rem;
+    color: red;
+    text-align: center;
+  }
+
+  .skills p {
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+    width: auto;
+  }
+
+  .skillscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 40px;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .skill:hover {
+    background-color: rgb(255, 47, 47);
+  }
+
+  .skillscontainer img {
+    margin: 10px;
+  }
+
+  .skillsimg {
+    width: 70px;
+    height: 70px;
+  }
+}
