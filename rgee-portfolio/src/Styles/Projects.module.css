@@ -190,15 +190,15 @@ hr {
   }
   
   .projectimgfoo {
-    width: 150px;
+    width: 180px;
     box-shadow: 25px 25px 5px 5px rgb(141, 141, 141);
-    padding: 30px;
+    margin: 30px;
   }
   
   .projectimgbar {
-    width: 150px;
+    width: 180px;
     box-shadow: -25px 25px 5px 5px rgb(141, 141, 141);
-    padding: 30px;
+    margin: 30px;
   }
 
   .projecttitle {
