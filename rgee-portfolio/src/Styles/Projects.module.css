@@ -179,7 +179,8 @@ hr {
     flex-direction: row;
     justify-content: space-evenly;
     margin: auto;
-    padding: 50px;
+    padding: 25px;
+    margin: 10px
   }
   
   .projectbar {
@@ -188,7 +189,8 @@ hr {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     margin: auto;
-    padding: 50px;
+    padding: 25px;
+    margin: 10px
   }
   
   .projectimgfoo {
