@@ -192,13 +192,13 @@ hr {
   }
   
   .projectimgfoo {
-    width: 240px;
+    width: 200px;
     box-shadow: 25px 25px 5px 5px rgb(141, 141, 141);
     margin: 30px;
   }
   
   .projectimgbar {
-    width: 240px;
+    width: 200px;
     box-shadow: -25px 25px 5px 5px rgb(141, 141, 141);
     margin: 30px;
   }
