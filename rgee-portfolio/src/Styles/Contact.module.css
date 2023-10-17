@@ -84,12 +84,12 @@
 }
 
 .form input {
-  width: 30vh;
+  width: auto;
   height: 3vh;
   margin: 20px;
 }
 .form textarea {
-  width: 45vh;
+  width: auto;
   height: 20vh;
   margin: 20px;
 }
@@ -119,12 +119,13 @@
   }
 }
 
-@media (max-width: 1800px) {  
+@media (max-width: 1200px) {  
   .contactintro {
     flex-direction: column;
     margin: auto;
     justify-content: center;
     align-items:center;
+    margin-top: 100px;
   }
 
   .contactintro h1{

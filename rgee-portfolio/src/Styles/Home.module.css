@@ -181,7 +181,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(185, 0, 0);
   color: rgb(255, 255, 255);
   margin: 100px 400px 100px 400px;
   height: auto;
@@ -451,7 +451,7 @@ button {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(185, 0, 0);
     color: rgb(255, 255, 255);
     margin: 15px 0 10px 0;
     width: auto;

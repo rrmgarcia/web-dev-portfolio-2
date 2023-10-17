@@ -84,7 +84,7 @@ const Projects = () => {
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          data-aos-anchor-placement="bottom-center"
+          data-aos-anchor-placement="bottom-bottom"
         >
           <div>
             <h1 className={styles.projecttitle}>Simple Pokédex</h1>
