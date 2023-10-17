@@ -2,6 +2,8 @@ import React from "react";
 import coding from "../Assets/coding.png";
 import gg from "../Assets/gg-js.png";
 import branded from "../Assets/branded.png";
+import pokedex from "../Assets/pokedex.png";
+import task24 from "../Assets/task24.png";
 import styles from "../Styles/Projects.module.css";
 
 const Projects = () => {
@@ -70,12 +72,12 @@ const Projects = () => {
           <div>
             <h1 className={styles.projecttitle}>Task24</h1>
             <p className={styles.projectdescription}>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
-              corrupti assumenda ex voluptatem harum illum.
+              A simple todo app made using MERN stack. This is my first
+              full-stack project.
             </p>
           </div>
-          <a>
-            <img className={styles.projectimgfoo} />
+          <a href="https://task24todoappbyrg.netlify.app/" target="_blank">
+            <img src={task24} className={styles.projectimgfoo} />
           </a>
         </div>
         <hr />
@@ -89,12 +91,11 @@ const Projects = () => {
           <div>
             <h1 className={styles.projecttitle}>Simple Pokédex</h1>
             <p className={styles.projectdescription}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam,
-              consectetur!
+              A simple Pokedex made using React.
             </p>
           </div>
-          <a>
-            <img className={styles.projectimgbar} />
+          <a href="https://simplepokedexbyrg.netlify.app/" target="_blank">
+            <img src={pokedex} className={styles.projectimgbar} />
           </a>
         </div>
         <hr />
