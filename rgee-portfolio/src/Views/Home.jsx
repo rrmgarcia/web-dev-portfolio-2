@@ -53,12 +53,13 @@ const Home = () => {
             experience in marine transportation has instilled in me qualities
             like discipline and adaptability. I have a strong commitment to
             continuous learning, always eager to keep pace with the latest tech
-            trends. Family values hold a special place in my heart, and I take
-            pride in being a devoted father. When I'm not immersed in coding,
-            you'll often find me on the basketball court or delving into the
-            world of online games, striking a balance between the physical and
-            digital realms. I'm filled with enthusiasm as I embark on my tech
-            career and delve into the vast domain of web development.
+            trends. I'm filled with enthusiasm as I embark on my tech career and
+            delve into the vast domain of web development.
+          </p>
+          <p className={styles.aboutme}>
+            When I'm not immersed in coding, you'll often find me on the
+            basketball court or delving into the world of online games, striking
+            a balance between the physical and digital realms.
           </p>
         </div>
       </div>
