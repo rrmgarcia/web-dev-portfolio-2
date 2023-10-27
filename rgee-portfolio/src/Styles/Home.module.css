@@ -312,6 +312,7 @@ button {
 
   .intro {
     font-size: 0.7rem;
+    margin: 125px 50px 50px 50px;
   }
 
   .about {
@@ -321,6 +322,7 @@ button {
   .aboutme {
     font-size: 1rem;
     line-height: 1rem;
+    margin-bottom: 200px;
   }
 
   .skills {
