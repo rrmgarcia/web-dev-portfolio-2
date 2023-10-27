@@ -28,7 +28,7 @@ const Projects = () => {
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="bottom-bottom"
         >
           <div>
             <h1 className={styles.projecttitle}>Galaxy Guardians</h1>
@@ -47,7 +47,7 @@ const Projects = () => {
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          data-aos-anchor-placement="center-center"
+          data-aos-anchor-placement="bottom-bottom"
         >
           <div>
             <h1 className={styles.projecttitle}>Branded</h1>
@@ -67,7 +67,7 @@ const Projects = () => {
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          data-aos-anchor-placement="bottom-center"
+          data-aos-anchor-placement="bottom-bottom"
         >
           <div>
             <h1 className={styles.projecttitle}>Task24</h1>

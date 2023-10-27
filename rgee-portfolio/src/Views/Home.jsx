@@ -48,33 +48,17 @@ const Home = () => {
         </div>
         <div>
           <p className={styles.aboutme}>
-            My name is RR Garcia, a full stack developer on an exciting journey
-            into the world of web development. Freshly graduated from a rigorous
-            coding bootcamp, I'm eager to apply my skills and embark on a
-            fulfilling career in the tech industry.
-          </p>
-          <p className={styles.aboutme}>
-            Prior to diving into the world of coding, I navigated the seas as a
-            seafarer, with a degree in marine transportation. This unique
-            background has shaped my perspective, instilling discipline and
-            adaptability into my professional approach.
-          </p>
-          <p className={styles.aboutme}>
-            A passionate life-long learner, I thrive on staying at the forefront
-            of technology trends. The dynamic nature of the tech world fuels my
-            curiosity and drives me to continuously enhance my skills.
-          </p>
-          <p className={styles.aboutme}>
-            Family holds a special place in my heart, and I'm a proud father of
-            two, with another bundle of joy on the way. My commitment to family
-            values is not just a part of my personal life but also influences my
-            work ethic and professional decisions.
-          </p>
-          <p className={styles.aboutme}>
-            When not crafting code, you'll likely find me on the basketball
-            court, indulging in my love for the game. I also enjoy immersing
-            myself in the virtual realm through online games, finding a perfect
-            balance between the physical and digital dimensions.
+            I'm RR Garcia, a recent graduate of a coding bootcamp with
+            aspirations of becoming a proficient full-stack developer. My prior
+            experience in marine transportation has instilled in me qualities
+            like discipline and adaptability. I have a strong commitment to
+            continuous learning, always eager to keep pace with the latest tech
+            trends. Family values hold a special place in my heart, and I take
+            pride in being a devoted father. When I'm not immersed in coding,
+            you'll often find me on the basketball court or delving into the
+            world of online games, striking a balance between the physical and
+            digital realms. I'm filled with enthusiasm as I embark on my tech
+            career and delve into the vast domain of web development.
           </p>
         </div>
       </div>

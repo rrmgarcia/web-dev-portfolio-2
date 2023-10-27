@@ -183,7 +183,7 @@
   align-items: center;
   background-color: rgb(185, 0, 0);
   color: rgb(255, 255, 255);
-  margin: 100px 400px 100px 400px;
+  margin: 100px 600px 100px 600px;
   height: auto;
   box-shadow: 30px 30px rgb(185, 80, 80);
 }
@@ -196,7 +196,7 @@
 }
 
 .aboutme {
-  margin: 40px 100px;
+  margin: 40px 100px 100px 100px;
   font-size: 1.3em;
   line-height: 2rem;
 }
