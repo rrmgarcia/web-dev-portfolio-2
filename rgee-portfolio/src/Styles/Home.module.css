@@ -279,8 +279,8 @@ button {
 @media (min-width: 993px) and (max-width: 1800px) {
   .home {
     background-color: rgb(255, 255, 255);
-    margin: 0;
     padding: 5vh;
+    margin: 5vh;
     display: flex;
     justify-content: space-between;
     height: auto;
