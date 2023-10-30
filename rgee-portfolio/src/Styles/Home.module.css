@@ -282,7 +282,7 @@ button {
     padding: 5vh;
     margin: 5vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: auto;
     border-radius: 2.5%;
     font-family: "Gruppo", sans-serif;
