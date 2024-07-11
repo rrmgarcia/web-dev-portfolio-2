@@ -10,7 +10,7 @@ import node from "../Assets/node.png";
 import ex from "../Assets/ex.png";
 import mongo from "../Assets/mongo.png";
 import download from "../Assets/download.png";
-import resume from "../Assets/RRGarcia_FullStackDev_MERN_2023_2.pdf";
+import resume from "../Assets/Ronald_Garcia_Web_Dev_Resume_ant.pdf";
 
 //Styles
 import styles from "../Styles/Home.module.css";
