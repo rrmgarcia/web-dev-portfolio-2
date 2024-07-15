@@ -48,13 +48,17 @@ const Home = () => {
         </div>
         <div>
           <p className={styles.aboutme}>
-            I'm RR Garcia, a recent graduate of a coding bootcamp with
-            aspirations of becoming a proficient full-stack developer. My prior
-            experience in marine transportation has instilled in me qualities
-            like discipline and adaptability. I have a strong commitment to
-            continuous learning, always eager to keep pace with the latest tech
-            trends. I'm filled with enthusiasm as I embark on my tech career and
-            delve into the vast domain of web development.
+            My career goals focus on continuous growth, sharing knowledge, and
+            making a positive impact. As a former seafarer, I learned
+            adaptability and discipline, which have been instrumental in my
+            transition to tech. I aim to become a knowledgeable and successful
+            developer, where I can lead projects and mentor others. Sharing my
+            expertise with aspiring developers is important to me, as it
+            benefits both them and my own growth. I have grit and a thirst for
+            continuous learning. Ultimately, I want to use technology to create
+            solutions that improve people's lives. By leveraging my skills and
+            experience, I aspire to contribute to projects that have a
+            meaningful and positive societal impact.
           </p>
           <p className={styles.aboutme}>
             When I'm not immersed in coding, you'll often find me on the
