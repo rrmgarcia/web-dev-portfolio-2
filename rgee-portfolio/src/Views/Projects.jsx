@@ -6,6 +6,7 @@ import branded from "../Assets/branded.png";
 import pokedex from "../Assets/pokedex.png";
 import task24 from "../Assets/task24.png";
 import hammershift from "../Assets/hammershift.png"
+import adminpanel from "../Assets/adminpanel.png"
 import mathassistant from "../Assets/mathassistant.png"
 import styles from "../Styles/Projects.module.css";
 
@@ -58,7 +59,7 @@ const Projects = () => {
             </p>
           </div>
           <a href="https://hammershift-admin.vercel.app/" target="_blank" rel="noreferrer">
-            <img className={styles.projectimgfoo} src={hammershift} />
+            <img className={styles.projectimgfoo} src={adminpanel} />
           </a>
         </div>
         <hr />
