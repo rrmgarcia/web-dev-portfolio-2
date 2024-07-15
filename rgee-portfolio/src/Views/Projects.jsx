@@ -1,9 +1,12 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import coding from "../Assets/coding.png";
 import gg from "../Assets/gg-js.png";
 import branded from "../Assets/branded.png";
 import pokedex from "../Assets/pokedex.png";
 import task24 from "../Assets/task24.png";
+import hammershift from "../Assets/hammershift.png"
+import mathassistant from "../Assets/mathassistant.png"
 import styles from "../Styles/Projects.module.css";
 
 const Projects = () => {
@@ -23,6 +26,42 @@ const Projects = () => {
       </div>
       <hr />
       <div className={styles.actualprojects}>
+      <div
+          className={styles.projectfoo}
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          <div>
+            <h1 className={styles.projecttitle}>AI Assistant</h1>
+            <p className={styles.projectdescription}>
+            Math tutorial assistant made for students and teachers. <p className={styles.italic}>Associated with Anteriore Inc</p>.
+            </p>
+          </div>
+          <a href="https://hammershift.vercel.app/" target="_blank" rel="noreferrer">
+            <img className={styles.projectimgfoo} src={mathassistant} />
+          </a>
+        </div>
+        <hr />
+      <div
+          className={styles.projectbar}
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          <div>
+            <h1 className={styles.projecttitle}>Hammershift</h1>
+            <p className={styles.projectdescription}>
+            Real-life project made for car enthusiasts. <p className={styles.italic}>Associated with Anteriore Inc</p>.
+            </p>
+          </div>
+          <a href="https://hammershift.vercel.app/" target="_blank" rel="noreferrer">
+            <img className={styles.projectimgbar} src={hammershift} />
+          </a>
+        </div>
+        <hr />
         <div
           className={styles.projectfoo}
           data-aos="flip-left"
@@ -37,7 +76,7 @@ const Projects = () => {
               Javascript. This is my first Javascript project made.
             </p>
           </div>
-          <a href="https://galaxyguardians.netlify.app/" target="_blank">
+          <a href="https://galaxyguardians.netlify.app/" target="_blank" rel="noreferrer">
             <img className={styles.projectimgfoo} src={gg} />
           </a>
         </div>
@@ -57,7 +96,7 @@ const Projects = () => {
               using MERN stack.
             </p>
           </div>
-          <a href="https://brandedapp.vercel.app/" target="_blank">
+          <a href="https://brandedapp.vercel.app/" target="_blank" rel="noreferrer">
             <img className={styles.projectimgbar} src={branded} />
           </a>
         </div>
@@ -76,7 +115,7 @@ const Projects = () => {
               full-stack project.
             </p>
           </div>
-          <a href="https://task24todoappbyrg.netlify.app/" target="_blank">
+          <a href="https://task24todoappbyrg.netlify.app/" target="_blank" rel="noreferrer">
             <img src={task24} className={styles.projectimgfoo} />
           </a>
         </div>
@@ -94,7 +133,7 @@ const Projects = () => {
               A simple Pokedex made using React.
             </p>
           </div>
-          <a href="https://simplepokedexbyrg.netlify.app/" target="_blank">
+          <a href="https://simplepokedexbyrg.netlify.app/" target="_blank" rel="noreferrer">
             <img src={pokedex} className={styles.projectimgbar} />
           </a>
         </div>

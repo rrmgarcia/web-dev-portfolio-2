@@ -213,3 +213,7 @@ hr {
     font-size: 0.7rem;
   }
 }
+
+.italic {
+  font-style: italic;
+}
