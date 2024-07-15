@@ -27,7 +27,7 @@ const Projects = () => {
       <hr />
       <div className={styles.actualprojects}>
       <div
-          className={styles.projectfoo}
+          className={styles.projectbar}
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
@@ -39,8 +39,26 @@ const Projects = () => {
             Math tutorial assistant made for students and teachers. <p className={styles.italic}>Associated with Anteriore Inc</p>.
             </p>
           </div>
-          <a href="https://hammershift.vercel.app/" target="_blank" rel="noreferrer">
-            <img className={styles.projectimgfoo} src={mathassistant} />
+          <a href="https://ai-assistants-math.vercel.app" target="_blank" rel="noreferrer">
+            <img className={styles.projectimgbar} src={mathassistant} />
+          </a>
+        </div>
+        <hr />
+        <div
+          className={styles.projectfoo}
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          <div>
+            <h1 className={styles.projecttitle}>Hammershift Admin Panel</h1>
+            <p className={styles.projectdescription}>
+            Developed to manage the Hammershift App. <p className={styles.italic}>Associated with Anteriore Inc</p>.
+            </p>
+          </div>
+          <a href="https://hammershift-admin.vercel.app/" target="_blank" rel="noreferrer">
+            <img className={styles.projectimgfoo} src={hammershift} />
           </a>
         </div>
         <hr />
